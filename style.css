@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+body {
+  background-image: url("./assets/pexels-maxyn.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: yellowgreen;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(68 36 75 / 72%);
+}
+
+.container {
+  width: 1140px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* --- NavBar--- */
+
+.navbar {
+  position: relative;
+  height: 70px;
+}
+
+.list {
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.list-item {
+  display: inline;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+
+.button-small {
+  padding: 10px 20px;
+  outline: none;
+  background-color: red;
+  font-size: 18px;
+  border: none;
+  color: white;
+}
+
+.logo {
+  width: 120px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* --- NavBar End */
+
+
+/* --- Hero Section --- */
+
+.hero {
+  margin: 0px auto;
+  top: 10vh;
+  width: 50%;
+  position: relative;
+}
+
+.hero-heading {
+  font-family: "Dela Gothic One";
+  font-size: 45px;
+  text-align: center;
+}
+
+.button-large {
+  padding: 15px 40px;
+  border: none;
+  background-color: red;
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  left: 50%;
+  margin-top: 30px;
+  transform: translateX(-50%);
+}
+
+.bottom {
+  position: absolute;
+  left: 100%;
+  top: 100%;
+  transform: translateX(0%);
+}
+
+/* ------------------------------ */
+
